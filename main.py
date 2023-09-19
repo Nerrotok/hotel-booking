@@ -73,6 +73,7 @@ class SecureCreditCard(CreditCard):
         else:
             return False
 
+
 class SpaTicket(ReservationTicket):
     def spa_reserved(self):
         content = f"""
